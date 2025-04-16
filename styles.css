@@ -1,0 +1,132 @@
+root:{
+margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+
+.head{
+    background-color: rgba(101, 102, 99, 0.5);
+    backdrop-filter: blur(10px);
+    color: rgb(237, 184, 184);
+    padding: 10px 0;
+    text-align: center;
+}
+.navbar{
+  display:flexbox;
+  justify-content: space-between;
+  background-color: #656663;
+}
+
+li {
+  float: right;
+}
+
+.servicelist{
+  display: flex;
+  justify-content: space-between;
+  background-color: #656663;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.links {
+  display:inline;
+  padding: 8px;
+  background-color: #dddddd;
+}
+.links a:hover {
+  background-color: #369c62;
+}
+
+li a:hover {
+  background-color: #831d1d;
+}
+
+#home {
+  background-color: #f0f8ff;
+  padding: 20px; /* Adds spacing inside the section */
+  text-align: center; /* Centers the content horizontally */
+  font-family: Arial, sans-serif;
+  border-bottom: 2px solid #ccc;
+}
+
+#about {
+  background-color: #fffaf0;
+  padding: 20px;
+  line-height: 1.6;
+  font-family: Georgia, serif;
+  border-bottom: 2px solid #ccc;
+}
+
+#services {
+  background-color: #e6ffe6;
+  padding: 20px; /* Adds spacing inside the section */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+#contact {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: left;
+  font-family: Tahoma, sans-serif;
+  border-top: 2px solid #ccc; 
+}
+
+
+.form{
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.input{
+ width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+}
+
+.input:focus{
+  width: 100%;
+    transition: width 0.4s ease-in-out;
+  border: 2px solid #555;
+}
+
+
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
